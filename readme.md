@@ -121,7 +121,7 @@ console.log('img.constructor:', img.constructor);
 
 # Easily Prototype NPM or GitHub Module
 
-1. Google [site:staxmanade.com jspm](https://www.google.com/search?q=site%3Astaxmanade.com+jspm)
+1. Google [site:staxmanade.com jspm plunker](https://www.google.com/search?q=site%3Astaxmanade.com+jspm+plunker)
 2. Open blog post [JSMP/SystemJS Starter Plunker](http://staxmanade.com/2015/09/jsmp-systemjs-starter-plunker/)
 3. Profit
 
