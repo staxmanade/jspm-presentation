@@ -9,7 +9,7 @@
 </div>
 ---
 
-# Frictionless Browser Package Management?
+# Frictionless Browser Package Management
 
 ---
 
@@ -23,7 +23,6 @@ Module
 - CommonJS
 - UMD
 - window/global
-- other?
 
 ---
 
