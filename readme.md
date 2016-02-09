@@ -1,5 +1,12 @@
 
-# JSPM/SystemJS Package Management
+# Pre-talk notes
+
+- Load in a browser tab [jspm registry](https://github.com/jspm/registry/blob/master/registry.json)
+
+---
+
+
+# JSPM & SystemJS Package Management
 
 <div style="display: flex; align-items: center;">
   <a href="http://elegantcode.com/about">staxmanade.com/about</a>
@@ -17,7 +24,7 @@
 
 ---
 
-Module
+Modules Types
 
 - AMD
 - CommonJS
@@ -44,17 +51,27 @@ module.exports = new EventEmitter();
 
 ---
 
-# DEMO!
+# window
 
-- [CommonJS!](demo1-commonjs)
-- [AMD!](demo2-amd)
-- [Mixed ES6, CommonJS, AMD & Global!](demo3-commonjs-amd-global)
+```
+window.myObject = {
+  othersDoThis: "But we all know you don't"
+};
+```
 
 ---
 
 # Use the Future Today!
 
 [whatwg.github.io/loader/](https://whatwg.github.io/loader/)
+
+---
+
+# DEMO!
+
+- [CommonJS!](demo-commonjs)
+- [AMD!](demo-amd)
+- [Mixed ES6, CommonJS, AMD & Global!](demo-commonjs-amd-global)
 
 ---
 

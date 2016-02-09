@@ -1,7 +1,6 @@
 
 import commonJSmodule from './commonJSmodule';
 import amdModule from './amdModule';
-
 import globalModule from './globalModule';
 
 var mainElement = document.getElementById('main');
