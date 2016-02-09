@@ -2,9 +2,10 @@
 # Pre-talk notes
 
 - Load in a browser tab [jspm registry](https://github.com/jspm/registry/blob/master/registry.json)
+- Open [some plunker's](http://staxmanade.com/2015/09/jsmp-systemjs-starter-plunker/)
+- [Angular 2 Getting Started](https://angular.io/docs/ts/latest/quickstart.html)
 
 ---
-
 
 # JSPM & SystemJS Package Management
 
@@ -16,7 +17,7 @@
 </div>
 ---
 
-# Frictionless Browser Package Management
+# _Frictionless_ Browser Package Management
 
 ---
 
@@ -24,12 +25,12 @@
 
 ---
 
-Modules Types
+Modules Types (quick review)
 
 - AMD
 - CommonJS
-- UMD
 - window/global
+- UMD
 
 ---
 
@@ -61,6 +62,17 @@ window.myObject = {
 
 ---
 
+# UMD
+
+```
+meh - too much code for a slide
+```
+
+---
+
+# SystemJS to the rescue
+
+---
 # Use the Future Today!
 
 [whatwg.github.io/loader/](https://whatwg.github.io/loader/)
@@ -75,19 +87,17 @@ window.myObject = {
 
 ---
 
-# NPM, GitHub, and Custom Regristries
+# Registries
+
+- NPM
+- GitHub
+- Custom/Pluggable
 
 ---
 
 # [JSPM Registry](https://github.com/jspm/registry/blob/master/registry.json)
 
 > alias to common packages (lodash, jquery, react, etc)
-
----
-
-# Module Formats
-
-`commonjs`, `amd`, `esm`, `global`, `register`
 
 ---
 
@@ -103,6 +113,13 @@ window.myObject = {
 
 ---
 
+# ESNext Transpilers
+
+- Babeljs
+- TypeScript
+- Traceur
+
+---
 ```
 import img from './images/nothappy.gif!image'
 
@@ -123,13 +140,9 @@ console.log('img.constructor:', img.constructor);
 
 ---
 
-# ESNext
+# Not all peaches and roses (yet)
 
-- Babeljs, TypeScript, Traceur
-
----
-
-## Possible (slow startup)
+#### Possible (slow startup)
 
 - possible mitigations: https://github.com/capaj/systemjs-hot-reloader
 
