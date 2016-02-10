@@ -31,6 +31,7 @@ Modules Types (quick review)
 - CommonJS
 - window/global
 - UMD
+- ES2015/ES6 import
 
 ---
 
@@ -70,10 +71,19 @@ meh - too much code for a slide
 
 ---
 
-# SystemJS to the rescue
+# ES2015/ES6 import
+
+```
+export { value1: value1 }
+```
+or
+```
+export default class Foo {}
+```
 
 ---
-# Use the Future Today!
+
+# SystemJS is the Future!
 
 [whatwg.github.io/loader/](https://whatwg.github.io/loader/)
 
