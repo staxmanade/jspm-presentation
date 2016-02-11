@@ -38,7 +38,7 @@ Modules Types (quick review)
 # AMD
 
     define(["exports", "jquery"], function (exports, $) {
-        exports.getTestElement = function() { return $('.test'); }
+    ...
     });
 
 ---
